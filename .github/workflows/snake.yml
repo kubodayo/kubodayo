@@ -18,9 +18,10 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: kubodayo
+          github_token: ${{ secrets.PAT }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#ffb9c4&color_dots=#ebedf0,#fce4e4,#fcccd5,#f794a8,#e55376
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#ffb9c4&color_dots=#161b22,#fce4e4,#fcccd5,#f794a8,#e55376
+            dist/github-contribution-grid-snake.svg?color_snake=#4B2C1A&color_dots=#ebedf0,#FFEBB5,#F6C8A4,#63B1D5,#4B2C1A
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#4B2C1A&color_dots=#161b22,#FFEBB5,#F6C8A4,#63B1D5,#4B2C1A
 
       # 生成された画像を 'output' ブランチに保存
       - uses: crazy-max/ghaction-github-pages@v3.1.0
