@@ -14,4 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![My GitHub Chart](https://ghchart.rshah.org/ffb9c4/kubodayo)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kubodayo/kubodayo/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kubodayo/kubodayo/output/github-contribution-grid-snake.svg">
+  <img alt="github snake" src="https://raw.githubusercontent.com/kubodayo/kubodayo/output/github-contribution-grid-snake.svg">
+</picture>
