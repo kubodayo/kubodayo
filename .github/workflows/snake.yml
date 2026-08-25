@@ -19,8 +19,8 @@ jobs:
         with:
           github_user_name: kubodayo
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#ffb9c4
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ffb9c4
+            dist/github-contribution-grid-snake.svg?color_snake=#ffb9c4&color_dots=#ebedf0,#fce4e4,#fcccd5,#f794a8,#e55376
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#ffb9c4&color_dots=#161b22,#fce4e4,#fcccd5,#f794a8,#e55376
 
       # 生成された画像を 'output' ブランチに保存
       - uses: crazy-max/ghaction-github-pages@v3.1.0
