@@ -12,12 +12,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: Platane/snk@v3
         with:
           github_user_name: kubodayo
-          github_token: ${{ secrets.PAT }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#4B2C1A&color_dots=#ebedf0,#FFEBB5,#F6C8A4,#63B1D5,#4B2C1A
             dist/github-contribution-grid-snake-dark.svg?color_snake=#4B2C1A&color_dots=#161b22,#FFEBB5,#F6C8A4,#63B1D5,#4B2C1A
