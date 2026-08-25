@@ -14,7 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # GitHub Snakeの生成（ダークモード対応 ＆ ヘビをピンク色に設定）
       - uses: Platane/snk@v3
         with:
           github_user_name: kubodayo
